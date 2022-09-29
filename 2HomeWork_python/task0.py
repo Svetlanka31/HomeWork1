@@ -4,7 +4,6 @@
 # - 0,56 -> 11
 
 number = input('Введите  число:')
-
 if float(number) < 0:
     number = float(number)*(-1)
 cull_sum =0
