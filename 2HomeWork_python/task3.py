@@ -8,8 +8,8 @@ result = 1
 for i in range(2*N +1):
       a.append(random.randint(-N,N))
 print(a)
-x = int(input('Введите номер позиции:')) 
-y = int(input('Введиет номер позиции'))
+x = int(input('Введите номер позиции числа в списке:')) 
+y = int(input('Введиет номер позиции числа в списке'))
 
 for i in range(len(a)):
     mult = a[x -1]*a[y-1]
