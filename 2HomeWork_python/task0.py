@@ -4,10 +4,13 @@
 # - 0,56 -> 11
 
 number = input('Введите  число:')
+
+if float(number) < 0:
+    number = float(number)*(-1)
 cull_sum =0
-for i in number:
+for i in str(number):
     if i != '.':
         cull_sum+=int(i)
 
-print(f'Сумма чисел числа {number} =  {cull_sum}')
+print(f'Сумма чисел числа {number} = {cull_sum}')
     
